@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
     <style>
         body {
             margin: 0%;
@@ -30,7 +31,7 @@
             justify-content: space-between;
             border: 0px solid red;
             width: 99%;
-            background-color: rgba(40, 40, 40, 0.7);
+            background-color: rgba(40, 40, 40, 0.8);
             padding: 15px 15px 15px 0px;
             position: fixed;
         }
@@ -108,12 +109,12 @@
         #secSection {
             display: flex;
             justify-content: space-between;
-            border: 1px solid green;
+            border: 0px solid green;
         }
 
         .secSectionText {
             padding-top: 10%;
-            width: 40%;
+            width: 38%;
             border: 0px solid red;
             margin-left: 15%;
             line-height: 20px;
@@ -127,6 +128,153 @@
             margin-top: -100px;
             margin-right: 13%;
         }
+
+        #thirdSec {
+            display: flex;
+            justify-content: space-between;
+            border: 0px solid blue;
+        }
+
+        .thirdImg {
+            margin-left: 18%;
+        }
+
+        .thirdSecText {
+            margin-top: 10%;
+            width: 40%;
+            margin-right: 5%;
+            margin-bottom: 10%;
+        }
+
+        ul img {
+            width: 20px;
+            margin-right: 1%;
+        }
+
+        #secForth {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f7f7fb;
+            padding: 4% 0%;
+
+        }
+
+        .forthSecImg {
+            margin-right: 13%;
+        }
+
+        #secFive {
+            display: flex;
+            justify-content: space-between;
+            padding: 4% 0%;
+        }
+
+        .fiveImg>img {
+            margin-left: 18%;
+            width: 80%;
+            border: 0px solid red;
+        }
+
+        .fiveSecText {
+            margin-top: 10%;
+            margin-right: 12%;
+            width: 33%;
+            border: 0px solid green;
+            margin-bottom: 10%;
+        }
+
+        #secSix {
+            width:80%;
+            margin-left: 12%;
+            margin-right: 5%;
+            margin-bottom: 10%;
+        }
+
+        .secSixContent {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px 20px;
+            margin-top: 3%;
+
+
+        }
+
+        .divSixImg {
+            width: 65px;
+            display: table-cell;
+            vertical-align: top;
+            border: 0px solid red;
+            
+        }
+
+        .sixImgspan {
+            display: block;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-image: linear-gradient(to bottom, #5a3bdb, #75c6ec);
+            margin: 10px 0px 0px 0px;
+            padding: 10px;
+
+        }
+
+        .sixImg {
+            height: 30px;
+            width: 30px;
+        }
+        .content{
+            border: 0px solid blue;
+            display: table-cell;
+            vertical-align: top;  
+        }
+        .content>h3{
+            margin-bottom: -10px;
+        }
+
+        #footer{
+            display:flex;
+            justify-content: space-around;
+            background-color:#121451;
+            padding-top: 4%;
+            padding-bottom: 4%;
+        }
+        .footerLeft{
+            margin-left: 10px;
+            line-height: 10px;
+            color: #b3aca5;
+        }
+        .footerLeft>img{
+            border: 0px solid red;
+            width: 180px;
+        }
+        .footerLeft{
+            font-size: smaller;
+        }
+        p+p{
+            margin-bottom: 30px;
+        }
+        .footerIcon{
+            border: 0px solid yellow;
+            display: flex;
+            justify-content: space-evenly;
+            width: 20%;
+            align-items: center;
+            
+        }
+
+        .footerIcon>a>img{
+            width: 50px;
+            height: 50px;
+            
+        }
+        .footerIcon a{
+            opacity: 0.6;
+           
+        }
+        .footerIcon a:hover{
+            opacity:0.9;
+        }
+       
     </style>
 </head>
 
@@ -134,7 +282,7 @@
     <div id="background">
         <div class="navbar">
             <div>
-                <a href="homepage.html"><img src="https://kcdn.twiikapp.com/images/logo.png" alt=""></a>
+                <a href="firstpage.html"><img src="https://kcdn.twiikapp.com/images/logo.png" alt=""></a>
             </div>
             <div class="navbar_child">
                 <a href="">Get the app</a>
@@ -150,6 +298,7 @@
             <button>Create account</button>
         </div>
     </div>
+
     <div id="secSection">
         <div class="secSectionText">
             <h2>WHAT IS TWIIK?</h2>
@@ -162,5 +311,130 @@
             <img src="https://kcdn.twiikapp.com/images/startpage_twiik_app.png" alt="">
         </div>
     </div>
+
+    <div id="thirdSec">
+        <div class="thirdImg">
+            <img src="https://kcdn.twiikapp.com/images/startpage_stats.png" alt="">
+        </div>
+        <div class="thirdSecText">
+            <h2>KEEP TRACK OF YOUR HABITS WITH OUR WORKOUT LOG</h2>
+            <img src="https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg" alt="">
+            <ul>
+                <p><img src="https://kcdn.twiikapp.com/images/pt/startpage_check.png" alt="">Your own digital fitness
+                    log</p>
+                <p><img src="https://kcdn.twiikapp.com/images/pt/startpage_check.png" alt="">Log all types of activities
+                </p>
+                <p><img src="https://kcdn.twiikapp.com/images/pt/startpage_check.png" alt="">Follow your results and
+                    keep track of your progress and habits</p>
+            </ul>
+        </div>
+    </div>
+
+    <div id="secForth">
+        <div class="secSectionText">
+            <h2>WORKOUTS PROGRAMS & COACHING</h2>
+            <img src="	https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg" alt="">
+            <p>With The Twiik app you can easily find lots of workout programs to follow. Find the program that suits
+                your needs.</p>
+        </div>
+        <div class="forthSecImg">
+            <img src="https://kcdn.twiikapp.com/images/startpage_coach.png" alt="">
+        </div>
+    </div>
+
+    <div id="secFive">
+        <div class="fiveImg">
+            <img src="https://kcdn.twiikapp.com/images/startpage_stream.jpg" alt="">
+        </div>
+        <div class="fiveSecText">
+            <h2>CHALLENGE & BOOST</h2>
+            <img src="	https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg" alt="">
+            <p>Add and follow your friends. Boost and write comments on each others workouts. Why not create a challenge
+                to create that extra bit of motivation. Create social groups where you can chat and share info.</p>
+        </div>
+    </div>
+
+    <div id="secSix">
+        <h1>THIS IS INCLUDED IN TWIIK</h1>
+        <img src="https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg" alt="">
+        <div class="secSixContent">
+            <div>
+                <div class="divSixImg">
+                    <span class="sixImgspan">
+                        <img class="sixImg" src="https://kcdn.twiikapp.com/images/pt/icons/dumbell.png" alt="">
+                    </span>
+                </div>
+                <div class="content">
+                    <h3>PROGRAM, BOOT CAMPS AND WORKOUTS</h3>
+                    <p>By single workouts, programs and plans or Boot Camps together with other people. Individual
+                        setups or
+                        shared plans for groups.</p>
+                </div>
+            </div>
+            <div>
+                <div class="divSixImg">
+                    <span class="sixImgspan">
+                        <img class="sixImg" src="https://kcdn.twiikapp.com/images/pt/icons/youtube.png" alt="">
+                    </span>
+                </div>
+                <div class="content">
+                    <h3>EXERCISES & DETAILED WORKOUTS</h3>
+                    <p>Workouts with exercises with videos, set, time and reps. Log and follow in detail</p>
+                 </div>
+            </div>
+            <div>
+                <div class="divSixImg">
+                    <span class="sixImgspan">
+                        <img class="sixImg" src="https://kcdn.twiikapp.com/images/pt/icons/growth.png" alt="">
+                    </span>
+                </div>
+                <div class="content">
+                    <h3>WORKOUT LOG & STATISTICS</h3>
+                    <p>Get insights of your workout habits and progress with our detailed workout log and statistics.</p>
+                </div>
+            </div>
+            <div>
+                <div class="divSixImg">
+                    <span class="sixImgspan">
+                        <img class="sixImg" src="https://kcdn.twiikapp.com/images/pt/icons/import.png" alt="">
+                    </span>
+                </div>
+                <div class="content">
+                    <h3>IMPORT WORKOUTS</h3>
+                    <p>You can log all your workouts and import data from services like FitBit, Garmin, Polar, Apple Health, Google Fit, Suunto and more.</p>
+                </div>
+            </div>
+            <div>
+                <div class="divSixImg">
+                    <span class="sixImgspan">
+                        <img class="sixImg" src="https://kcdn.twiikapp.com/images/pt/icons/whatsapp.png" alt="">
+                    </span>
+                </div>
+                <div class="content">
+                    <h3>CHAT & HANG OUT</h3>
+                    <p>Chat with your coach directly in the app. Join social groups where you can find other members with the same interests.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<div id="footer">
+    <div class="footerLeft">
+        <img src="https://kcdn.twiikapp.com/images/logo.png" alt="">
+        <p>All rights reserved © 2002 - 2022</p>
+        <p>Developed by Wellnesstech Labs International AB</p>
+        <a href="https://www.shapelink.com/en/misc/agreement">Contact Us </a> ·  <a href="https://www.shapelink.com/en/misc/agreement"> Terms & Conditions</a>
+
+    </div>
+    <div class="footerIcon">
+        <a href="https://www.facebook.com/twiikme/" target="_blank"><img src="https://kcdn.twiikapp.com/images/icon_facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/twiik.me/" target="_blank"><img src="https://kcdn.twiikapp.com/images/icon_instagram.png" alt=""></a>
+        <a href="https://www.linkedin.com/company/twiik/" target="_blank"><img src="https://kcdn.twiikapp.com/images/icon_linkedin.png" alt=""></a>
+        <a href="https://itunes.apple.com/se/app/twiik/id1022318229?ls=1&mt=8" target="_blank"><img src="https://kcdn.twiikapp.com/images/icon_apple.png" alt=""></a>
+        <a href="https://play.google.com/store/apps/details?id=me.twiik.twiikapp" target="_blank"> <img src="https://kcdn.twiikapp.com/images/icon_android.png" alt=""></a>
+    </div>
+</div>
 </body>
+
 </html>
