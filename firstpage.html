@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0%;
+            font-family: "Gill Sans", sans-serif;
+        }
+
+        #background {
+            border: 0px solid red;
+            background-image: url('https://www.shapelink.com/images/startpage.jpg');
+            background-position-x: center;
+            background-position-y: center;
+            background-size: 100% 140%;
+            color: aliceblue;
+
+            background-attachment: fixed;
+            background-origin: initial;
+            background-clip: initial;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            border: 0px solid red;
+            width: 99%;
+            background-color: rgba(40, 40, 40, 0.7);
+            padding: 15px 15px 15px 0px;
+            position: fixed;
+        }
+
+        .navbar img {
+            margin-left: 15px;
+            width: 45%;
+        }
+
+        .navbar_child {
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 0px solid green;
+        }
+
+        a {
+            color: aliceblue;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar_child>button {
+            padding: 1.5%;
+            width: 28%;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 18px;
+            border: none;
+            background-color: #6576e2;
+            color: aliceblue;
+        }
+
+        button:hover {
+            cursor: pointer;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #background h1 {
+            width: 80%;
+            padding-left: 15%;
+
+        }
+
+        #background p {
+            width: 70%;
+            padding-left: 15%;
+            color: #f4edef;
+            font-size: larger;
+            line-height: 30px;
+        }
+
+        h1+p+button {
+            margin: 2% 15% 5%;
+            padding: 15px;
+            width: 12%;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 30px;
+            border: none;
+            background-color: #6576e2;
+            color: aliceblue;
+        }
+
+        #text {
+            padding-top: 8%;
+        }
+
+        /* second section */
+        #secSection {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid green;
+        }
+
+        .secSectionText {
+            padding-top: 10%;
+            width: 40%;
+            border: 0px solid red;
+            margin-left: 15%;
+            line-height: 20px;
+        }
+
+        .secSectionText>p {
+            width: 85%;
+        }
+
+        .mbl_img {
+            margin-top: -100px;
+            margin-right: 13%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="background">
+        <div class="navbar">
+            <div>
+                <a href="homepage.html"><img src="https://kcdn.twiikapp.com/images/logo.png" alt=""></a>
+            </div>
+            <div class="navbar_child">
+                <a href="">Get the app</a>
+                <a href="">Contact</a>
+                <a href="">Login</a>
+                <button>Create account</button>
+            </div>
+        </div>
+        <div id="text">
+            <h1>The personal coach in your.<br>When, where and how you want.</h1>
+            <p>As a member you can log your workouts in your workout log directly in the app. Follow your results, get
+                individual results, personal coaching and statistics.</p>
+            <button>Create account</button>
+        </div>
+    </div>
+    <div id="secSection">
+        <div class="secSectionText">
+            <h2>WHAT IS TWIIK?</h2>
+            <img src="	https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg" alt="">
+            <p>Twiik App is a digital fitness log and coach that's always with you. As a member you can log your
+                workouts, track results, follow programs, boost and challenge friends and join social groups for
+                motivation.</p>
+        </div>
+        <div class="mbl_img">
+            <img src="https://kcdn.twiikapp.com/images/startpage_twiik_app.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
