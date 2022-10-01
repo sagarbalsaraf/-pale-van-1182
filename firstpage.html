@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>first page</title>
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
     <style>
         body {
@@ -31,9 +31,10 @@
             justify-content: space-between;
             border: 0px solid red;
             width: 99%;
-            background-color: rgba(40, 40, 40, 0.8);
+            background-color: rgba(40, 40, 40, 0.9);
             padding: 15px 15px 15px 0px;
             position: fixed;
+            margin: 0px;
         }
 
         .navbar img {
@@ -65,10 +66,10 @@
             background-color: #6576e2;
             color: aliceblue;
         }
-
-        button:hover {
+        button:hover{
             cursor: pointer;
             box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            text-decoration: none;
         }
 
         a:hover {
@@ -99,6 +100,10 @@
             border: none;
             background-color: #6576e2;
             color: aliceblue;
+        }   
+        h1+p+button a:hover{
+           cursor: pointer;
+            text-decoration: none;
         }
 
         #text {
@@ -288,14 +293,14 @@
                 <a href="">Get the app</a>
                 <a href="">Contact</a>
                 <a href="">Login</a>
-                <button>Create account</button>
+                <button><a href="createAcc.html"> Create account</a></button>
             </div>
         </div>
         <div id="text">
             <h1>The personal coach in your.<br>When, where and how you want.</h1>
             <p>As a member you can log your workouts in your workout log directly in the app. Follow your results, get
                 individual results, personal coaching and statistics.</p>
-            <button>Create account</button>
+                <button> <a href="createAcc.html">Create account</a></button>
         </div>
     </div>
 

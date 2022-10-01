@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body {
+            margin: 0%;
+            font-family: lato, Arial, Helvetica, sans-serif;
+            background-color: #121451;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            border: 0px solid red;
+            width: 99%;
+            background-color: rgba(40, 40, 40, 0.9);
+            padding: 15px 15px 15px 0px;
+            margin: 0px;
+        }
+
+        .navbar img {
+            margin-left: 15px;
+            width: 45%;
+        }
+
+        .navbar_child {
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 0px solid green;
+        }
+
+        a {
+            color: aliceblue;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar_child>button {
+            padding: 1.5%;
+            width: 28%;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 18px;
+            border: none;
+            background-color: #6576e2;
+            color: aliceblue;
+        }
+
+        button:hover {
+            cursor: pointer;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+
+        #inputContent {
+            text-align: center;
+            margin: auto;
+            color: aliceblue;
+            background-color: #2a2c63;
+            width: 70%;
+            margin-top: 8%;
+            padding: 30px 0px;
+            border-radius: 20px;
+        }
+
+        .input {
+            padding: 12px;
+            width: 30%;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .submit {
+            padding: 12px;
+            width: 9%;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .submit:hover {
+            cursor: pointer;
+            background-color: rgb(188, 186, 186);
+        }
+
+        #centerText {
+            width: 70%;
+            text-align: center;
+            margin: auto;
+            padding: 3% 0% 2% 0%;
+            border: 0px solid red;
+            color: aliceblue;
+        }
+
+        #centerText>h1 {
+            font-size: 50px;
+        }
+
+        #centerText>h1+p {
+            margin-top: -1.5%;
+            margin-bottom: 5%;
+        }
+
+        .cenBotmImg {
+            border: 0px solid red;
+            text-align: center;
+            margin: auto;
+            width: 60%;
+            margin-top: -25px;
+            margin-bottom: 4%;
+        }
+
+        .cenBotm1Img {
+            width: 18.8%;
+        }
+
+        .cenBotm2Img {
+            width: 21%;
+        }
+
+        #footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #121451;
+            padding-top: 2%;
+            padding-bottom: 4%;
+            border-top: 1px solid grey;
+            width: 65%;
+            margin: auto;
+
+
+        }
+
+        .footerLeft {
+            margin-left: 10px;
+            line-height: 10px;
+            color: #b3aca5;
+        }
+
+        .footerLeft>img {
+            border: 0px solid red;
+            width: 180px;
+        }
+
+        .footerLeft {
+            font-size: smaller;
+        }
+
+        p+p {
+            margin-bottom: 30px;
+        }
+
+        .footerIcon {
+            border: 0px solid yellow;
+            display: flex;
+            justify-content: space-evenly;
+            width: 25%;
+            gap: 10px;
+            align-items: center;
+            margin-right: 30px;
+        }
+
+        .footerIcon>a>img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .footerIcon a {
+            opacity: 0.6;
+        }
+
+        .footerIcon a:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div>
+            <a href="firstpage.html"><img src="https://kcdn.twiikapp.com/images/logo.png" alt=""></a>
+        </div>
+        <div class="navbar_child">
+            <a href="">Get the app</a>
+            <a href="">Contact</a>
+            <a href="">Login</a>
+            <button><a href="createAcc.html"> Create account</a></button>
+        </div>
+    </div>
+        <div id="inputContent">
+            <h1>Do you have a code for TeamBoost?</h1>
+            <p>If you have received a code to join a TeamBoost, then you can create your account here on the web, fill
+                in
+                the code below and click "Proceed".</p>
+            <p><span></span></p>
+            <input type="text" placeholder="Enter your code here" class="input">
+            <input type="submit" value="Proceed" class="submit">
+        </div>
+
+        <div id="centerText">
+            <h1>Create an account in the app!</h1>
+            <p>To be able to use Twiik you need to create an account in the app.</p>
+            <img src="https://kcdn.twiikapp.com/images/twiik_register.png" alt="">
+            <p>Get the app</p>
+        </div>
+        <div class="cenBotmImg">
+            <a href=""><img class="cenBotm1Img" src="https://kcdn.twiikapp.com/images/language/en/appstore_button.png"
+                    alt=""></a>
+            <a href=""><img class="cenBotm2Img" src="https://kcdn.twiikapp.com/images/language/en/googleplay_button.png"
+                    alt=""></a>
+        </div>
+
+        <div id="footer">
+            <div class="footerLeft">
+                <img src="https://kcdn.twiikapp.com/images/logo.png" alt="">
+                <p>All rights reserved © 2002 - 2022</p>
+                <p>Developed by Wellnesstech Labs International AB</p>
+                <a href="https://www.shapelink.com/en/misc/agreement">Contact Us </a> · <a
+                    href="https://www.shapelink.com/en/misc/agreement"> Terms & Conditions</a>
+
+            </div>
+            <div class="footerIcon">
+                <a href="https://www.facebook.com/twiikme/" target="_blank"><img
+                        src="https://kcdn.twiikapp.com/images/icon_facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/twiik.me/" target="_blank"><img
+                        src="https://kcdn.twiikapp.com/images/icon_instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/twiik/" target="_blank"><img
+                        src="https://kcdn.twiikapp.com/images/icon_linkedin.png" alt=""></a>
+                <a href="https://itunes.apple.com/se/app/twiik/id1022318229?ls=1&mt=8" target="_blank"><img
+                        src="https://kcdn.twiikapp.com/images/icon_apple.png" alt=""></a>
+                <a href="https://play.google.com/store/apps/details?id=me.twiik.twiikapp" target="_blank"> <img
+                        src="https://kcdn.twiikapp.com/images/icon_android.png" alt=""></a>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
