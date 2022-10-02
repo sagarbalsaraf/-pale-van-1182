@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account</title>
-    <link rel="stylesheet" href="createAcc.css" />
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="forgot_pass.css" />
+
+   
 </head>
 
 <body>
@@ -21,29 +23,21 @@
             <button><a href="createAcc.html"> Create account</a></button>
         </div>
     </div>
-    <div id="block">
-    </div>
+    <div id="stepnee">
 
-    <div id="inputContent">
-        <h1>Do you have a code for TeamBoost?</h1>
-        <p>If you have received a code to join a TeamBoost, then you can create your account here on the web, fill in
-            the code below and click "Proceed".</p>
-        <p id="span"><span></span></p>
-        <input onclick="clickme()" type="text" placeholder="Enter your code here" id="input">
-        <input onclick="submitClick()" type="submit" value="Proceed" id="submit">
     </div>
-
-    <div id="centerText">
-        <h1>Create an account in the app!</h1>
-        <p>To be able to use Twiik you need to create an account in the app.</p>
-        <img src="https://kcdn.twiikapp.com/images/twiik_register.png" alt="">
-        <p>Get the app</p>
-    </div>
-    <div class="cenBotmImg">
-        <a href="https://itunes.apple.com/se/app/twiik/id1022318229?ls=1&mt=8" target="_blank"><img class="cenBotm1Img"
-                src="https://kcdn.twiikapp.com/images/language/en/appstore_button.png" alt=""></a>
-        <a href="https://play.google.com/store/apps/details?id=me.twiik.twiikapp" target="_blank"><img
-                class="cenBotm2Img" src="https://kcdn.twiikapp.com/images/language/en/googleplay_button.png" alt=""></a>
+    <div id="content">
+        <h1>Forgot your password</h1>
+        <p>Enter your email address and your username in the field below and click on Send to get a new password sent to
+            you automatically .</p>
+        <p>NB! Please add twiik.me as a trusted sender to your email white list. Otherwise the password mail might get
+            stuck in your spam filter.</p>
+        <a>Outlook / Hotmail</a><br>
+        <a>Gmail</a><br>
+        <a>Yahoo</a><br>
+        <p>If you don't receive your password within 30 minutes, contact us at<a href=""> appsupport@twiik.me</a> </p>
+        <label>Email address:</label> <input type="email"><span id="spanContent"></span><br>
+        <button onclick="clickSend()">SEND</button>
     </div>
 
     <div id="footer">
@@ -69,20 +63,13 @@
         </div>
     </div>
 
-
 </body>
 
 </html>
 <script>
-    function clickme() {
-        document.getElementById("input").style.border = "none";
-        document.getElementById("input").style.outline = "none";
-    }
-
-    function submitClick() {
-
-        document.getElementById("span").innerText = "enter_code_error";
-        document.getElementById("span").style.color = "red"
+    function clickSend() {
+        console.log("sagar")
+        document.getElementById("spanContent").innerText = "  You must eneter a correct email address";
 
     }
 </script>

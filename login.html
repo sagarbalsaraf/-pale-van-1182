@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+    <div id="box">
+        <div id="container">
+            <p>LOGIN</p>
+            <input type="text" id="email" placeholder="username_or_email"><br>
+            <input type="password" id="pass" placeholder="Password"><br>
+            <p id="check"><input type="checkbox" >Log in automatically next time</p>
+            <p id="spanText"><span></span></p>
+            <button onclick="clickspan()" id="login">Login</button><br>
+            <p>or</p>
+            <a href=""><button id="facebook"> Login with Facebook</button><br></a>
+            <a href="forgot_pass.html">Forgot your password</a> . <a
+                href="createAcc.html">Create account</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+function clickspan() {
+document.getElementById("spanText").innerText = "Incorrect username or password";
+
+}
+</script>
